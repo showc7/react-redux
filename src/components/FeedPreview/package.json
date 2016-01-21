@@ -1,0 +1,6 @@
+{
+  "name": "FeedPreview",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FeedPreview.js"
+}

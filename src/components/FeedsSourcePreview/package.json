@@ -1,0 +1,6 @@
+{
+  "name": "FeedsSourcePreview",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FeedsSourcePreview.js"
+}
