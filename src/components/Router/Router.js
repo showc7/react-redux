@@ -19,12 +19,14 @@ export default class router extends Component {
     store.dispatch(init());
   }
 */
-  render() {
 
+  render() {
+    let context = {color: 'test'}
     return (
-      <Provider store={store}>
+      <Provider store={store} context={context}>
         <Router>
-          <Route path='/' component={App}>
+          <Route path='/' component={App} >
+            <Route path='home' component={Home} />
           </Route>
         </Router>
       </Provider>

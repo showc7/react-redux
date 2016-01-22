@@ -1,12 +1,13 @@
 import React, { Component, PropTypes } from 'react';
-import { feed } from '../../actions/state/routes';
 
 export default class FeedsSourcePreview extends Component{
 
   handleClick() {
+    /*
     console.log('FeedsSourcePreview.handleClick');
     console.log(this.props.state);
     feed(this.props.state);
+    */
   }
 
   render() {

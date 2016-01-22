@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import cx from 'classnames';
-import s from './Navigation.scss';
-import { about } from '../../actions/state/routes';
-import Link from '../Link';
+import Link from 'react-router';
+
+//import { about } from '../../actions/state/routes';
 
 class Navigation extends Component {
 

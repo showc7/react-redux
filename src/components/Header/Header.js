@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import s from './Header.scss';
 import Navigation from '../Navigation';
 
 class Header extends Component {

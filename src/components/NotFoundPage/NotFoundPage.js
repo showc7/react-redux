@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import s from './NotFoundPage.scss';
 
 const title = 'Page Not Found';
 

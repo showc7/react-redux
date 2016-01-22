@@ -74,13 +74,17 @@ const config = {
         loader: 'babel-loader',
       }, {
         test: /\.scss$/,
+        loaders: ["style", "css", "sass"] 
+      },
+       /*{
+        test: /\.scss$/,
         loaders: [
           'isomorphic-style-loader',
           'css-loader?' + (DEBUG ? 'sourceMap&' : 'minimize&') +
           'modules&localIdentName=[name]_[local]_[hash:base64:3]',
           'postcss-loader',
         ],
-      }, {
+      }, */{
         test: /\.json$/,
         loader: 'json-loader',
       }, {

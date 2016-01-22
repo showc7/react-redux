@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import s from './Footer.scss';
-import { home } from '../../actions/state/routes';
+
+//import { home } from '../../actions/state/routes';
 
 class Footer extends Component {
 
